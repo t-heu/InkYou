@@ -13,8 +13,8 @@ Transforme suas fotos e ideias em ilustrações incríveis com inteligência art
 **InkYou** é uma plataforma que converte imagens ou descrições em artes digitais estilizadas, com foco em cartoon, HQ, gibi, flat design e muito mais. Seja para criar um avatar, ícone de perfil, presente ilustrado ou simplesmente se divertir, o InkYou entrega resultados personalizados e prontos para compartilhar.
 
 ## 🖼️ Preview
-![Screen 1](docs/image.png "Screen 1")
-![Screen 2](docs/image1.png "Screen 2")
+![Screen 1](docs/preview.png "Screen 1")
+![Screen 2](docs/image.png "Screen 2")
 
 ### 🌟 Funcionalidades
 

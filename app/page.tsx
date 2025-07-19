@@ -1,6 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
-import { CameraIcon, PaletteIcon, DownloadIcon, SparklesIcon } from "lucide-react"
+import { CameraIcon, PaletteIcon, DownloadIcon } from "lucide-react"
+
+import Logo from '../public/logo.svg'; 
 
 export default function Component() {
   return (
@@ -8,13 +10,7 @@ export default function Component() {
       {/* Header */}
       <header className="px-4 lg:px-6 h-16 flex items-center bg-veo-bg border-b border-gray-800">
         <Link href="#" className="flex items-center justify-center">
-          <Image
-            src={`/assets/favicon.svg?height=96&width=96`}
-            width="96"
-            height="96"
-            alt={`LOGO`}
-            className="aspect-square object-cover"
-          />
+          <Logo className="w-24 h-24 text-[#eee]" />
           <span className="ml-2 text-lg font-semibold">InkYou</span>
         </Link>
         <nav className="ml-auto flex gap-6 sm:gap-8">
@@ -29,6 +25,12 @@ export default function Component() {
             className="text-sm font-medium text-gray-400 hover:text-white transition-colors duration-200"
           >
             Estilos
+          </Link>
+          <Link
+            href="#plans"
+            className="text-sm font-medium text-gray-400 hover:text-white transition-colors duration-200"
+          >
+            Plans
           </Link>
           <Link
             href="#contact"
@@ -70,7 +72,7 @@ export default function Component() {
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/placeholder.svg?height=500&width=500&text=Arte+Digital"
+                  src="/assets/aa.png"
                   width="500"
                   height="500"
                   alt="Exemplo de foto transformada em arte"
@@ -82,7 +84,7 @@ export default function Component() {
         </section>
 
         {/* How it works */}
-        <section id="how-it-works" className="w-full py-24 md:py-32 bg-veo-bg">
+        <section id="how-it-works" className="w-full py-12 md:py-32 bg-veo-bg">
           <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl font-bold tracking-tight sm:text-5xl text-white">Como Funciona</h2>
@@ -129,7 +131,7 @@ export default function Component() {
         </section>
 
         {/* Styles */}
-        <section id="styles" className="w-full py-24 md:py-32 bg-veo-bg">
+        <section id="styles" className="w-full py-12 md:py-32 bg-veo-bg">
           <div className="container mx-auto px-4 md:px-6 max-w-6xl">
             <div className="text-center space-y-4 mb-16">
               <h2 className="text-3xl font-bold tracking-tight sm:text-5xl text-white">Estilos Disponíveis</h2>
@@ -139,19 +141,19 @@ export default function Component() {
             </div>
             <div className="grid gap-8 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
               {[
-                { name: "Gibi Clássico", desc: "Cores vibrantes e traços marcantes" },
-                { name: "Cartoon", desc: "Estilo animado e expressivo" },
-                { name: "HQ Realista", desc: "Detalhes e sombras de quadrinhos" },
-                { name: "Mangá", desc: "Olhos grandes e linhas dinâmicas" },
-                { name: "Aquarela", desc: "Efeito de pintura suave" },
-                { name: "Sketch", desc: "Desenho a lápis artístico" },
-                { name: "Pop Art", desc: "Cores fortes e contornos definidos" },
-                { name: "Pixel Art", desc: "Estilo retrô com blocos de pixels" },
+                { name: "Gibi Clássico", desc: "Cores vibrantes e traços marcantes", link: 'gibi.png' },
+                { name: "Cartoon", desc: "Estilo animado e expressivo", link: 'cartoon.png' },
+                { name: "HQ Realista", desc: "Detalhes e sombras de quadrinhos", link: 'hq.png' },
+                { name: "Mangá", desc: "Olhos grandes e linhas dinâmicas", link: 'manga.png' },
+                { name: "Aquarela", desc: "Efeito de pintura suave", link: 'aquarela.png' },
+                { name: "Sketch", desc: "Desenho a lápis artístico", link: 'sketch.png' },
+                { name: "Pop Art", desc: "Cores fortes e contornos definidos", link: 'PopArt.png' },
+                { name: "Pixel Art", desc: "Estilo retrô com blocos de pixels", link: 'placeholder.svg' },
               ].map((style, index) => (
                 <div key={index} className="space-y-4 group cursor-pointer">
                   <div className="overflow-hidden rounded-xl transition-transform duration-200 group-hover:scale-105">
                     <Image
-                      src={`/placeholder.svg?height=200&width=200&text=${style.name}`}
+                      src={`/assets/${style.link}`}
                       width="200"
                       height="200"
                       alt={`Estilo ${style.name}`}
@@ -169,7 +171,7 @@ export default function Component() {
         </section>
 
         {/* Upload Section */}
-        <section id="upload" className="w-full py-24 md:py-32 bg-veo-bg">
+        <section id="upload" className="w-full py-12 md:py-32 bg-veo-bg">
           <div className="container mx-auto px-4 md:px-6 max-w-2xl text-center">
             <div className="space-y-6 mb-12">
               <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-white">Transforme sua Foto Agora</h2>
@@ -200,7 +202,7 @@ export default function Component() {
         </section>
 
         {/* Contact */}
-        <section id="contact" className="w-full py-24 md:py-32 bg-veo-bg">
+        <section id="contact" className="w-full py-12 md:py-32 bg-veo-bg">
           <div className="container mx-auto px-4 md:px-6 max-w-2xl text-center">
             <div className="space-y-6 mb-12">
               <h2 className="text-3xl font-bold tracking-tight md:text-4xl text-white">Fale Conosco</h2>

@@ -1,23 +1,25 @@
-// pages/404.js
+// pages/404.tsx
+import Link from "next/link";
+import Head from "next/head";
+
 export default function Custom404() {
   return (
-    <div className="bg-[#020817]" style={{ 
-      height: '100vh', 
-      display: 'flex', 
-      flexDirection: 'column', 
-      justifyContent: 'center', 
-      alignItems: 'center',
-      textAlign: 'center',
-      padding: '0 1rem',
-      color: '#eee'
-    }}>
-      <h1 style={{ fontSize: '4rem', marginBottom: '1rem' }}>404</h1>
-      <p style={{ fontSize: '1.5rem', marginBottom: '2rem' }}>
-        Ops! A página que você procura não foi encontrada.
-      </p>
-      <a href="/" style={{ color: '#eee', textDecoration: 'underline' }}>
-        Voltar para a página inicial
-      </a>
-    </div>
+    <>
+      <Head>
+        <title>Page Not Found | InkYou</title>
+      </Head>
+      <section className="w-full min-h-screen flex items-center justify-center bg-veo-bg text-white px-6">
+        <div className="text-center max-w-md">
+          <h1 className="text-6xl font-bold mb-4">404</h1>
+          <p className="text-xl text-gray-400 mb-6">Oops! The page you're looking for doesn't exist.</p>
+
+          <Link href="/" passHref>
+            <button className="bg-purple-600 hover:bg-purple-700 text-white px-6 py-3 rounded-lg font-medium transition">
+              Go Back Home
+            </button>
+          </Link>
+        </div>
+      </section>
+    </>
   );
 }

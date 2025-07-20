@@ -10,10 +10,11 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@svgr/webpack": "^8.1.0",
+    "@tensorflow/tfjs": "^4.22.0",
     "autoprefixer": "^10.4.20",
     "lucide-react": "^0.454.0",
     "next": "15.2.4",
+    "next-intl": "^4.3.4",
     "next-sitemap": "^4.2.3",
     "react": "^19",
     "react-dom": "^19",

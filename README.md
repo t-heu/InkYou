@@ -15,6 +15,7 @@ Transforme suas fotos e ideias em ilustrações incríveis com inteligência art
 ## 🖼️ Preview
 ![Screen 1](docs/preview.png "Screen 1")
 ![Screen 2](docs/image.png "Screen 2")
+![Screen 2](docs/image1.png "Screen 2")
 
 ### 🌟 Funcionalidades
 

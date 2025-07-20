@@ -1,0 +1,85 @@
+{
+  "header_how-it-works": "How It Works",
+  "header_styles": "Styles",
+  "header_plans": "Plans",
+  "header_contact": "Contact",
+
+  "home_title": "Turn your photos into art",
+  "home_desc": "Upload your photo and choose from various drawing styles: comic, cartoon, HQ, manga, and more.",
+  "home_btn1": "Get Started",
+  "home_btn2": "View Styles",
+
+  "home_sec_1_title": "How It Works",
+  "home_sec_1_desc": "Turning your photos into digital art is simple and fast",
+  "home_sec_1_step1": "1. Upload Your Photo",
+  "home_sec_1_step1_desc": "Upload the photo you want to transform. We support various formats.",
+  "home_sec_1_step2": "2. Choose Your Style",
+  "home_sec_1_step2_desc": "Browse our style library and select the one you like the most.",
+  "home_sec_1_step3": "3. Receive Your Artwork",
+  "home_sec_1_step3_desc": "Your transformed photo will be ready for download in just a few minutes.",
+
+  "home_sec_2_title": "Available Styles",
+  "home_sec_2_desc": "Choose from various styles to transform your photo",
+
+  "home_sec_contact_title": "Contact Us",
+  "home_sec_contact_desc": "Have a question or suggestion? Get in touch with us",
+  "home_sec_contact_input_email": "Your email",
+  "home_sec_contact_input_subject": "Subject",
+  "home_sec_contact_input_text": "Your message",
+  "home_sec_contact_btn": "Send Message",
+
+  "form_title": "Transform Your Photo Now",
+  "form_desc": "Transform Your Photo Now",
+  "form_opt_resize": "Select image size:",
+  "form_opt_resize_op_default": "Select...",
+  "form_opt_resize_op_s": "Small (Fast)",
+  "form_opt_resize_op_m": "Medium",
+  "form_opt_resize_op_l": "Large (Slow)",
+  "form_opt_resize_op_orign": "No Resize",
+  "form_opt_fp16": "Force FP16:",
+  "form_opt_fp16_1": "No",
+  "form_opt_fp16_2": "Yes",
+  "form_btn": "Upload Photo and Choose Style",
+  "form_save_p": "Right-click to save the image.",
+  "form_reset_btn": "Reset",
+  "form_terms": "By uploading, you agree to our",
+
+  "footer_copy": "All rights reserved.",
+  "footer_terms": "Terms of Service",
+  "footer_privacy": "Privacy Policy",
+
+  "styles": {
+    "gibi": {
+      "name": "Classic Comic",
+      "desc": "Vibrant colors and bold strokes"
+    },
+    "cartoon": {
+      "name": "Cartoon",
+      "desc": "Animated and expressive style"
+    },
+    "hq": {
+      "name": "Realistic Comic",
+      "desc": "Detailed shading and comic look"
+    },
+    "manga": {
+      "name": "Manga",
+      "desc": "Big eyes and dynamic lines"
+    },
+    "aquarela": {
+      "name": "Watercolor",
+      "desc": "Soft painting effect"
+    },
+    "sketch": {
+      "name": "Sketch",
+      "desc": "Artistic pencil drawing"
+    },
+    "pop_art": {
+      "name": "Pop Art",
+      "desc": "Strong colors and bold outlines"
+    },
+    "pixel_art": {
+      "name": "Pixel Art",
+      "desc": "Retro pixel block style"
+    }
+  }
+}

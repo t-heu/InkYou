@@ -1,0 +1,85 @@
+{
+  "header_how-it-works": "Como Funciona",
+  "header_styles": "Estilos",
+  "header_plans": "Planos",
+  "header_contact": "Contato",
+
+  "home_title": "Transforme suas fotos em arte",
+  "home_desc": "Envie sua foto e escolha entre diversos estilos de desenho: gibi, cartoon, HQ, mangá e muito mais.",
+  "home_btn1": "Comece Agora",
+  "home_btn2": "Ver Estilos",
+
+  "home_sec_1_title": "Como Funciona",
+  "home_sec_1_desc": "Transformar suas fotos em arte digital é simples e rápido",
+  "home_sec_1_step1": "1. Envie sua Foto",
+  "home_sec_1_step1_desc": "Faça o upload da foto que você deseja transformar. Aceitamos diversos formatos.",
+  "home_sec_1_step2": "2. Escolha seu Estilo",
+  "home_sec_1_step2_desc": "Navegue por nossa biblioteca de estilos e selecione o que mais te agrada.",
+  "home_sec_1_step3": "3. Receba sua Arte",
+  "home_sec_1_step3_desc": "Sua foto transformada estará pronta para download em poucos minutos.",
+
+  "home_sec_2_title": "Estilos Disponíveis",
+  "home_sec_2_desc": "Escolha entre diversos estilos para transformar sua foto",
+
+  "home_sec_contact_title": "Fale Conosco",
+  "home_sec_contact_desc": "Tem alguma dúvida ou sugestão? Entre em contato conosco",
+  "home_sec_contact_input_email": "Seu e-mail",
+  "home_sec_contact_input_subject": "Assunto",
+  "home_sec_contact_input_text": "Sua mensagem",
+  "home_sec_contact_btn": "Enviar Mensagem",
+
+  "form_title": "Transforme sua Foto Agora",
+  "form_desc": "Transforme sua Foto Agora",
+  "form_opt_resize": "Selecione o tamanho da imagem:",
+  "form_opt_resize_op_default": "Selecione...",
+  "form_opt_resize_op_s": "Pequeno (Rápido)",
+  "form_opt_resize_op_m": "Médio",
+  "form_opt_resize_op_l": "Grande (Lento)",
+  "form_opt_resize_op_orign": "Sem Redimensionar",
+  "form_opt_fp16": "Force FP16:",
+  "form_opt_fp16_1": "Não",
+  "form_opt_fp16_2": "Sim",
+  "form_btn": "Enviar Foto e Escolher Estilo",
+  "form_save_p": "Clique com o botão direito para salvar a imagem.",
+  "form_reset_btn": "Reiniciar",
+  "form_terms": "Ao enviar, você concorda com nossos",
+
+  "footer_copy": "Todos os direitos reservados.",
+  "footer_terms": "Termos de Serviço",
+  "footer_privacy": "Política de Privacidade",
+
+  "styles": {
+    "gibi": {
+      "name": "Gibi Clássico",
+      "desc": "Cores vibrantes e traços marcantes"
+    },
+    "cartoon": {
+      "name": "Cartoon",
+      "desc": "Estilo animado e expressivo"
+    },
+    "hq": {
+      "name": "HQ Realista",
+      "desc": "Detalhes e sombras de quadrinhos"
+    },
+    "manga": {
+      "name": "Mangá",
+      "desc": "Olhos grandes e linhas dinâmicas"
+    },
+    "aquarela": {
+      "name": "Aquarela",
+      "desc": "Efeito de pintura suave"
+    },
+    "sketch": {
+      "name": "Sketch",
+      "desc": "Desenho a lápis artístico"
+    },
+    "pop_art": {
+      "name": "Pop Art",
+      "desc": "Cores fortes e contornos definidos"
+    },
+    "pixel_art": {
+      "name": "Pixel Art",
+      "desc": "Estilo retrô com blocos de pixels"
+    }
+  }
+}

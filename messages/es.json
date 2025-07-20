@@ -1,0 +1,85 @@
+{
+  "header_how-it-works": "Cómo Funciona",
+  "header_styles": "Estilos",
+  "header_plans": "Planes",
+  "header_contact": "Contacto",
+
+  "home_title": "Convierte tus fotos en arte",
+  "home_desc": "Sube tu foto y elige entre varios estilos de dibujo: cómic, caricatura, manga y mucho más.",
+  "home_btn1": "Empieza Ahora",
+  "home_btn2": "Ver Estilos",
+
+  "home_sec_1_title": "Cómo Funciona",
+  "home_sec_1_desc": "Convertir tus fotos en arte digital es rápido y sencillo",
+  "home_sec_1_step1": "1. Sube tu Foto",
+  "home_sec_1_step1_desc": "Sube la foto que deseas transformar. Aceptamos varios formatos.",
+  "home_sec_1_step2": "2. Elige tu Estilo",
+  "home_sec_1_step2_desc": "Explora nuestra biblioteca de estilos y elige el que más te guste.",
+  "home_sec_1_step3": "3. Recibe tu Arte",
+  "home_sec_1_step3_desc": "Tu foto transformada estará lista para descargar en pocos minutos.",
+
+  "home_sec_2_title": "Estilos Disponibles",
+  "home_sec_2_desc": "Elige entre varios estilos para transformar tu foto",
+
+  "home_sec_contact_title": "Contáctanos",
+  "home_sec_contact_desc": "¿Tienes alguna duda o sugerencia? Ponte en contacto con nosotros",
+  "home_sec_contact_input_email": "Tu correo electrónico",
+  "home_sec_contact_input_subject": "Asunto",
+  "home_sec_contact_input_text": "Tu mensaje",
+  "home_sec_contact_btn": "Enviar Mensaje",
+
+  "form_title": "Transforma tu Foto Ahora",
+  "form_desc": "Transforma tu Foto Ahora",
+  "form_opt_resize": "Selecciona el tamaño de la imagen:",
+  "form_opt_resize_op_default": "Seleccionar...",
+  "form_opt_resize_op_s": "Pequeño (Rápido)",
+  "form_opt_resize_op_m": "Mediano",
+  "form_opt_resize_op_l": "Grande (Lento)",
+  "form_opt_resize_op_orign": "Sin Redimensionar",
+  "form_opt_fp16": "Forzar FP16:",
+  "form_opt_fp16_1": "No",
+  "form_opt_fp16_2": "Sí",
+  "form_btn": "Subir Foto y Elegir Estilo",
+  "form_save_p": "Haz clic derecho para guardar la imagen.",
+  "form_reset_btn": "Reiniciar",
+  "form_terms": "Al subir, aceptas nuestros",
+
+  "footer_copy": "Todos los derechos reservados.",
+  "footer_terms": "Términos de Servicio",
+  "footer_privacy": "Política de Privacidad",
+
+  "styles": {
+    "gibi": {
+      "name": "Cómic Clásico",
+      "desc": "Colores vibrantes y trazos marcados"
+    },
+    "cartoon": {
+      "name": "Dibujos Animados",
+      "desc": "Estilo animado y expresivo"
+    },
+    "hq": {
+      "name": "Cómic Realista",
+      "desc": "Detalles y sombras tipo historieta"
+    },
+    "manga": {
+      "name": "Manga",
+      "desc": "Ojos grandes y líneas dinámicas"
+    },
+    "aquarela": {
+      "name": "Acuarela",
+      "desc": "Efecto de pintura suave"
+    },
+    "sketch": {
+      "name": "Boceto",
+      "desc": "Dibujo artístico a lápiz"
+    },
+    "pop_art": {
+      "name": "Pop Art",
+      "desc": "Colores intensos y contornos definidos"
+    },
+    "pixel_art": {
+      "name": "Pixel Art",
+      "desc": "Estilo retro con bloques de píxeles"
+    }
+  }
+}

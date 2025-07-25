@@ -109,9 +109,9 @@ const preHeat = (): void => {
   const MODEL_URL = window.location.origin + '/models/cartoon/model.json';
 
   tfc.loadGraphModel(MODEL_URL).then((model) => {
-    console.log("Model Loaded");
+    //console.log("Model Loaded");
     const model_load_end = performance.now();
-    console.log(`Took ${(model_load_end - model_load_start) / 1000} s to load the model`);
+    //console.log(`Took ${(model_load_end - model_load_start) / 1000} s to load the model`);
     model.dispose();
   });
 };
@@ -139,8 +139,8 @@ const generateImageWithTensor = async (
   const model = await tfc.loadGraphModel(modelUrl);
 
   const model_load_end = performance.now();
-  console.log("Model Loaded");
-  console.log(`Took ${(model_load_end - model_load_start) / 1000} s to load the model`);
+  //console.log("Model Loaded");
+  //console.log(`Took ${(model_load_end - model_load_start) / 1000} s to load the model`);
 
   // Redimensiona imagem se necessário
   let inputTensor: tf.Tensor4D;
@@ -158,8 +158,8 @@ const generateImageWithTensor = async (
   const generated = await model.executeAsync({ test: inputTensor }) as tf.Tensor;
 
   const end = performance.now();
-  console.log("Image Generated");
-  console.log(`Took ${(end - start) / 1000} s to generate the image`);
+  //console.log("Image Generated");
+  //console.log(`Took ${(end - start) / 1000} s to generate the image`);
 
   inputTensor.dispose();
 

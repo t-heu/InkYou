@@ -49,7 +49,7 @@ export default function Home() {
               </div>
               <div className="flex justify-center">
                 <Image
-                  src="/assets/aa.png"
+                  src="/assets/cartoon.png"
                   width="500"
                   height="500"
                   alt="Exemplo de foto transformada em arte"
